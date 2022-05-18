@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #1a1b26;
+}
+
+.reset {
+    position: absolute;
+    bottom: 20px;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: .5em 1em;
+    background-color: transparent;
+    cursor: pointer;
+    border: 3px solid #365aaa;
+    color: #365aaa;
+    font-weight: bold;
+    border-radius: .25em;
+    transition: 50ms;
+}
+
+.reset:hover {
+    background-color: #365aaa;
+    color: #1a1b26;
+}
